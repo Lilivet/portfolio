@@ -188,9 +188,38 @@ h2 {
     margin: 0;
     text-align: center;
 }
+
+section.thoughts {
+    max-width: 1100px;
+}
 span.thoughts {
     display: none;
 }
+.article-container {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+a.article {
+    display:grid;
+    grid-template-columns: auto;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.image-btn, .image-btn img {
+    width: 100%;
+}
+
+a.article {
+    text-decoration: none;
+}
+
+a.article h4{
+    color: rgb(212, 52, 31);
+    font-weight: 700;
+    font-size: 18px;
+}
+
 
 /* SECTION SKILLS */
 .skills {
