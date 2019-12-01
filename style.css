@@ -191,10 +191,10 @@ section.projects {
 a.project {
     display: flex;
     flex-direction: column;
-    position: relative; /* Needs position realtive for title to be absolute to card*/
+    /* position: relative; Needs position realtive for title to be absolute to card */
     text-align: left;
     width: 100%;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 a.project, .project-img, .project-img h4{
     width: 100%;
